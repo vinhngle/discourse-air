@@ -518,6 +518,9 @@ html body #main-outlet {
 
 .navigation-container {
   margin-top: 0;
+  @media screen and (max-width: 700px) {
+    margin-top: 2em;
+  }
 }
 
 // published page additions
